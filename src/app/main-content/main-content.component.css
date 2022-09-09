@@ -1,0 +1,9 @@
+.grilla {
+    margin-top: 1rem;
+    display: table;
+    width: 95%;
+}
+
+.no-padding {
+    padding: 0 !important;
+}

@@ -1,0 +1,56 @@
+<nav class="navbar fixed-top"> <!-- el problema con el mensaje flotante de inicio de sesion es porque esta el fixed top-->
+    <!-- Container-->
+    <div class="d-flex justify-content-between">
+        <!-- Navbar brand -->
+        <a class="navbar-brand me-2 programar_logo_bloque" href="">
+            <img class="programar_logo" src="./assets/icons/APLogo_negro.png"/>
+        </a>
+    </div>
+    <!-- Left links -->
+        <div class="d-flex justify-content-end">
+            <a class="navbar-brand" href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="navbar-brand" href="#">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a class="navbar-brand" href="#">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <div class="d-flex align-items-center">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn login_btn px-2 me-2 login_btn text-success bg-success bg-opacity-10 border border-success border-opacity-10 rounded-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Iniciar Sesion
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Inicio de Sesion</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="mb-3 row">
+                                    <label for="staticEmail" class="col-sm-2 col-form-label">Correo</label>
+                                    <div class="col-sm-10">
+                                    <input type="text" class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                                    </div>
+                                </div>
+                                <div class="mb-3 row">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                                    <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                <button type="button" class="btn btn-success">Iniciar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>            
+</nav>

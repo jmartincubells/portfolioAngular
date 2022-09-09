@@ -1,0 +1,12 @@
+.portrait {
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+}
+
+.profile_container {
+    margin: 1rem;
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: #0095ffbe;
+}

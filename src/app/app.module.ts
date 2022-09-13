@@ -9,6 +9,11 @@ import { PersonalInformationComponent } from './personal-information/personal-in
 import { MainContentComponent } from './main-content/main-content.component';
 import { LoginComponent } from './login/login.component';
 import { ErrorComponent } from './error/error.component';
+import { IndexComponent } from './index/index.component';
+import { ExperienciaComponent } from './experiencia/experiencia.component';
+import { RedesComponent } from './redes/redes.component';
+import { LogInComponent } from './log-in/log-in.component';
+import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { ErrorComponent } from './error/error.component';
     PersonalInformationComponent,
     MainContentComponent,
     LoginComponent,
-    ErrorComponent
+    ErrorComponent,
+    IndexComponent,
+    ExperienciaComponent,
+    RedesComponent,
+    LogInComponent,
+    NavbardashboardComponent
   ],
   imports: [
     BrowserModule,

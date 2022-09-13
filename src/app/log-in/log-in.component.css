@@ -1,0 +1,5 @@
+.login_btn {
+    --bs-btn-padding-y: .2rem; 
+    --bs-btn-padding-x: .5rem; 
+    --bs-btn-font-size: .80rem;
+}

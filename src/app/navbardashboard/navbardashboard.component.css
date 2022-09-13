@@ -1,0 +1,24 @@
+.navbar {
+    background-color: white;
+}
+
+.programar_logo_bloque {
+    width: 1rem; 
+    padding-left: 1rem;
+    
+}
+
+.programar_logo {
+    height: auto;
+    width: 7.5rem;
+}
+
+.login_btn {
+    --bs-btn-padding-y: .2rem; 
+    --bs-btn-padding-x: .5rem; 
+    --bs-btn-font-size: .80rem;
+}
+
+.no-padding {
+    padding: 0 !important;
+}

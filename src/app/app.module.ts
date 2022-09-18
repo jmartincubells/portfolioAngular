@@ -14,6 +14,9 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { RedesComponent } from './redes/redes.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
+import { EducacionComponent } from './educacion/educacion.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { NavbardashboardComponent } from './navbardashboard/navbardashboard.comp
     ExperienciaComponent,
     RedesComponent,
     LogInComponent,
-    NavbardashboardComponent
+    NavbardashboardComponent,
+    EducacionComponent,
+    SkillsComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,

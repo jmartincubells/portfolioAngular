@@ -7,13 +7,17 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { BannerComponent } from './banner/banner.component';
 import { PersonalInformationComponent } from './personal-information/personal-information.component';
 import { MainContentComponent } from './main-content/main-content.component';
-import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { ErrorComponent } from './error/error.component';
 import { IndexComponent } from './index/index.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { RedesComponent } from './redes/redes.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
+import { EducacionComponent } from './educacion/educacion.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,17 +26,21 @@ import { NavbardashboardComponent } from './navbardashboard/navbardashboard.comp
     BannerComponent,
     PersonalInformationComponent,
     MainContentComponent,
-    LoginComponent,
+    DashboardComponent,
     ErrorComponent,
     IndexComponent,
     ExperienciaComponent,
     RedesComponent,
     LogInComponent,
-    NavbardashboardComponent
+    NavbardashboardComponent,
+    EducacionComponent,
+    SkillsComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
